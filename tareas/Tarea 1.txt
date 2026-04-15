@@ -1,0 +1,1962 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20260414231440
+Nombre de usuario: DESKTOP-I4RLOPH\user
+Usuario RunAs: DESKTOP-I4RLOPH\user
+Nombre de la configuración: 
+Máquina: DESKTOP-I4RLOPH (Microsoft Windows NT 10.0.19045.0)
+Aplicación host: C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 21780
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es C:\Users\user\Documents\PowerShell_transcript.DESKTOP-I4RLOPH.BrtxYWAb.20260414231440.txt
+PS C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas> pwd
+
+Path
+----
+C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E52...
+
+
+PS C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas> cd /
+PS C:\> pwd
+
+Path
+----
+C:\
+
+
+PS C:\> pwd /
+>> ErrorTerminación(Get-Location): "No se encuentra ningún parámetro de posición que acepte el argumento '/'."
+Get-Location : No se encuentra ningún parámetro de posición que acepte el argumento '/'.
+En línea: 1 Carácter: 1
++ pwd /
++ ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetLocationCommand
+Get-Location : No se encuentra ningún parámetro de posición que acepte
+el argumento '/'.
+En línea: 1 Carácter: 1
++ pwd /
++ ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Location], Param
+   eterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.Powe
+   rShell.Commands.GetLocationCommand
+
+PS C:\> cd home
+cd : No se encuentra la ruta de acceso 'C:\home' porque no existe.
+En línea: 1 Carácter: 1
++ cd home
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\home:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\home' porque no existe.
+En línea: 1 Carácter: 1
++ cd home
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\home:String) [Set-Loca
+   tion], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .SetLocationCommand
+
+PS C:\> cd 
+PS C:\> cd ..
+PS C:\> cd..
+PS C:\> cd ../..
+PS C:\> pwd
+
+Path
+----
+C:\
+
+
+PS C:\> cd
+PS C:\> pwd
+
+Path
+----
+C:\
+
+
+PS C:\> cd  C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas
+PS C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas> pwd
+
+Path
+----
+C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E52...
+
+
+PS C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas> cd
+PS C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas> pwd
+
+Path
+----
+C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E52...
+
+
+PS C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas> cd etc
+cd : No se encuentra la ruta de acceso 
+'C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas\etc' porque no existe.
+En línea: 1 Carácter: 1
++ cd etc
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\user\D...26C1\tareas\etc:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\user\Desktop\Curso-E520-
+MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas\etc' porque no
+existe.
+En línea: 1 Carácter: 1
++ cd etc
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\user\D...26C1\ta
+   reas\etc:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .SetLocationCommand
+
+PS C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas> whoami
+user
+PS C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas> cd Escritorio
+cd : No se encuentra la ruta de acceso 
+'C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas\Escritorio' porque no existe.
+En línea: 1 Carácter: 1
++ cd Escritorio
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\user\D...reas\Escritorio:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\user\Desktop\Curso-E520-
+MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas\Escritorio' porque
+no existe.
+En línea: 1 Carácter: 1
++ cd Escritorio
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\user\D...reas\Es
+   critorio:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .SetLocationCommand
+
+PS C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas> cd C:\Users\user\Desktop
+PS C:\Users\user\Desktop> pwd
+
+Path
+----
+C:\Users\user\Desktop
+
+
+PS C:\Users\user\Desktop> cd ~
+PS C:\Users\user> pwd
+
+Path
+----
+C:\Users\user
+
+
+PS C:\Users\user> cd ~/Desktop
+PS C:\Users\user\Desktop> pwd
+
+Path
+----
+C:\Users\user\Desktop
+
+
+PS C:\Users\user\Desktop> cd 
+PS C:\Users\user\Desktop> cd /
+PS C:\> cd ~/Desktop
+PS C:\Users\user\Desktop> cd /etc
+cd : No se encuentra la ruta de acceso 'C:\etc' porque no existe.
+En línea: 1 Carácter: 1
++ cd /etc
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\etc:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\etc' porque no existe.
+En línea: 1 Carácter: 1
++ cd /etc
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\etc:String) [Set-Locat
+   ion], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .SetLocationCommand
+
+PS C:\Users\user\Desktop> cd /var/log
+cd : No se encuentra la ruta de acceso 'C:\var\log' porque no existe.
+En línea: 1 Carácter: 1
++ cd /var/log
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\var\log:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\var\log' porque no existe.
+En línea: 1 Carácter: 1
++ cd /var/log
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\var\log:String) [Set-L
+   ocation], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .SetLocationCommand
+
+PS C:\Users\user\Desktop> cd ..
+PS C:\Users\user> cd C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas
+PS C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1\tareas> cd ..
+PS C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\curso-E520-2026C1> cd ~
+PS C:\Users\user> cd
+PS C:\Users\user> mkdir /tmp/tutorial
+
+
+    Directorio: C:\tmp
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:35                tutorial
+
+
+PS C:\Users\user> cd tmp/tutorial
+cd : No se encuentra la ruta de acceso 'C:\Users\user\tmp\tutorial' porque no existe.
+En línea: 1 Carácter: 1
++ cd tmp/tutorial
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\user\tmp\tutorial:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\user\tmp\tutorial'
+porque no existe.
+En línea: 1 Carácter: 1
++ cd tmp/tutorial
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\user\tmp\tutoria
+   l:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .SetLocationCommand
+
+PS C:\Users\user> cd /tmp/tutorial
+PS C:\tmp\tutorial> mkdir dir1 dir2 dir3
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mkdir dir1 dir2 dir3
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el
+argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mkdir dir1 dir2 dir3
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBin
+   dingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\tmp\tutorial> mkdir dir1,dir2,dir3
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+
+
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+
+
+PS C:\tmp\tutorial> mkdir -p dir4/dir5/dir6
+
+
+    Directorio: C:\tmp\tutorial\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:40                dir6
+
+
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+d-----         14/4/2026     23:40                dir4
+
+
+PS C:\tmp\tutorial> cd dir4
+PS C:\tmp\tutorial\dir4> ls
+
+
+    Directorio: C:\tmp\tutorial\dir4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:40                dir5
+
+
+PS C:\tmp\tutorial\dir4> cd dir5
+PS C:\tmp\tutorial\dir4\dir5> ls
+
+
+    Directorio: C:\tmp\tutorial\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:40                dir6
+
+
+PS C:\tmp\tutorial\dir4\dir5> cd ../..
+PS C:\tmp\tutorial> -p -v dir4/dir5
+-p : El término '-p' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ -p -v dir4/dir5
++ ~~
+    + CategoryInfo          : ObjectNotFound: (-p:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+-p : El término '-p' no se reconoce como nombre de un cmdlet, función,
+archivo de script o programa ejecutable. Compruebe si escribió
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que
+dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ -p -v dir4/dir5
++ ~~
+    + CategoryInfo          : ObjectNotFound: (-p:String) [], CommandNot
+   FoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\tmp\tutorial> mkdir -p -v dir4/dir5
+>> ErrorTerminación(mkdir): "Falta un argumento para el parámetro 'Path'. Especifique un parámetro del tipo 'System.String[]' e inténtelo de nuevo."
+mkdir : Falta un argumento para el parámetro 'Path'. Especifique un parámetro del tipo 'System.String[]' e inténtelo de 
+nuevo.
+En línea: 1 Carácter: 7
++ mkdir -p -v dir4/dir5
++       ~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,mkdir
+mkdir : Falta un argumento para el parámetro 'Path'. Especifique un
+parámetro del tipo 'System.String[]' e inténtelo de nuevo.
+En línea: 1 Carácter: 7
++ mkdir -p -v dir4/dir5
++       ~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBin
+   dingException
+    + FullyQualifiedErrorId : MissingArgument,mkdir
+
+PS C:\tmp\tutorial> mkdir -pv dir4/dir5
+mkdir : Ya existe un elemento con el nombre especificado: C:\tmp\tutorial\dir4.
+En línea: 1 Carácter: 1
++ mkdir -pv dir4/dir5
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\tmp\tutorial\dir4:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre especificado:
+C:\tmp\tutorial\dir4.
+En línea: 1 Carácter: 1
++ mkdir -pv dir4/dir5
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\tmp\tutorial\dir4:Stri
+   ng) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Comman
+   ds.NewItemCommand
+
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:43                tutorial
+
+
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:43                tutorial
+
+
+PS C:\tmp\tutorial> mkdir "folder 1"
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:44                folder 1
+
+
+PS C:\tmp\tutorial> mkdir 'folder 1'
+mkdir : Ya existe un elemento con el nombre especificado: C:\tmp\tutorial\folder 1.
+En línea: 1 Carácter: 1
++ mkdir 'folder 1'
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\tmp\tutorial\folder 1:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre especificado:
+C:\tmp\tutorial\folder 1.
+En línea: 1 Carácter: 1
++ mkdir 'folder 1'
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\tmp\tutorial\folder 1:
+   String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Comman
+   ds.NewItemCommand
+
+PS C:\tmp\tutorial> mkdir 'folder 2'
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:44                folder 2
+
+
+PS C:\tmp\tutorial> mkdir folder\ 3 
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '3'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '3'.
+En línea: 1 Carácter: 1
++ mkdir folder\ 3
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el
+argumento '3'.
+En línea: 1 Carácter: 1
++ mkdir folder\ 3
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBin
+   dingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\tmp\tutorial> mkdir folder\3
+
+
+    Directorio: C:\tmp\tutorial\folder
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:45                3
+
+
+PS C:\tmp\tutorial> mkdir "folder 4" "folder 5"
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'folder 5'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder 5'.
+En línea: 1 Carácter: 1
++ mkdir "folder 4" "folder 5"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el
+argumento 'folder 5'.
+En línea: 1 Carácter: 1
++ mkdir "folder 4" "folder 5"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBin
+   dingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\tmp\tutorial> mkdir "folder 4", "folder 5"
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+
+
+PS C:\tmp\tutorial> mkdir -p "folder 6"/ "folder 7"
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '/'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '/'.
+En línea: 1 Carácter: 1
++ mkdir -p "folder 6"/ "folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el
+argumento '/'.
+En línea: 1 Carácter: 1
++ mkdir -p "folder 6"/ "folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBin
+   dingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\tmp\tutorial> mkdir -p "folder 6"/"folder 7"
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '/folder 7'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '/folder 7'.
+En línea: 1 Carácter: 1
++ mkdir -p "folder 6"/"folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el
+argumento '/folder 7'.
+En línea: 1 Carácter: 1
++ mkdir -p "folder 6"/"folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBin
+   dingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\tmp\tutorial> mkdir "folder 6" / "folder 7"
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento '/'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento '/'.
+En línea: 1 Carácter: 1
++ mkdir "folder 6" / "folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el
+argumento '/'.
+En línea: 1 Carácter: 1
++ mkdir "folder 6" / "folder 7"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBin
+   dingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\tmp\tutorial> mkdir -p "folder 6/ folder 7"
+
+
+    Directorio: C:\tmp\tutorial\folder 6
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:49                 folder 7
+
+
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+d-----         14/4/2026     23:43                tutorial
+
+
+PS C:\tmp\tutorial> ls > output.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir1"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir2"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir3"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="dir4"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 1"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 2"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 4"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 5"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="folder 6"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="tutorial"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="output.txt"
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+d-----         14/4/2026     23:43                tutorial
+-a----         14/4/2026     23:50           2192 output.txt
+
+
+PS C:\tmp\tutorial> cat output.txt
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+d-----         14/4/2026     23:43                tutorial
+-a----         14/4/2026     23:50              0 output.txt
+
+
+PS C:\tmp\tutorial> echo "this is a test"
+this is a test
+PS C:\tmp\tutorial> echo "this is a text" > test_1.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a text"
+PS C:\tmp\tutorial> echo "This is a second test" > test_2.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a second test"
+PS C:\tmp\tutorial> echo "This is a third test" > test_3.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a third test"
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+d-----         14/4/2026     23:43                tutorial
+-a----         14/4/2026     23:50           2192 output.txt
+-a----         14/4/2026     23:53             34 test_1.txt
+-a----         14/4/2026     23:53             48 test_2.txt
+-a----         14/4/2026     23:53             46 test_3.txt
+
+
+PS C:\tmp\tutorial> cat test_1.txt test_2.txt test_3.txt
+>> ErrorTerminación(Get-Content): "No se encuentra ningún parámetro de posición que acepte el argumento 'test_2.txt'."
+Get-Content : No se encuentra ningún parámetro de posición que acepte el argumento 'test_2.txt'.
+En línea: 1 Carácter: 1
++ cat test_1.txt test_2.txt test_3.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Content], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : No se encuentra ningún parámetro de posición que acepte el
+argumento 'test_2.txt'.
+En línea: 1 Carácter: 1
++ cat test_1.txt test_2.txt test_3.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Content], Parame
+   terBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.Powe
+   rShell.Commands.GetContentCommand
+
+PS C:\tmp\tutorial> cat test_1.txt, test_2.txt, test_3.txt
+this is a text
+This is a second test
+This is a third test
+PS C:\tmp\tutorial> cat test_?.txt
+this is a text
+This is a second test
+This is a third test
+PS C:\tmp\tutorial> cat t* > combined.txt
+cat : Acceso denegado a la ruta de acceso 'C:\tmp\tutorial\tutorial'.
+En línea: 1 Carácter: 1
++ cat t* > combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\tmp\tutorial\tutorial:String) [Get-Content], 
+UnauthorizedAccessException
+    + FullyQualifiedErrorId : GetContentReaderUnauthorizedAccessError,Microsoft.PowerShell.Commands.GetContentCommand
+cat : Acceso denegado a la ruta de acceso 'C:\tmp\tutorial\tutorial'.
+En línea: 1 Carácter: 1
++ cat t* > combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\tmp\tutorial\tutoria
+   l:String) [Get-Content], UnauthorizedAccessException
+    + FullyQualifiedErrorId : GetContentReaderUnauthorizedAccessError,Mi
+   crosoft.PowerShell.Commands.GetContentCommand
+
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a text"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a second test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a third test"
+PS C:\tmp\tutorial> cat test_* > combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a text"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a second test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="This is a third test"
+PS C:\tmp\tutorial> cat combined.txt
+this is a text
+This is a second test
+This is a third test
+PS C:\tmp\tutorial> echo "I've appended a line!" >> combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="I've appended a line!"
+PS C:\tmp\tutorial> cat combined.txt
+this is a text
+This is a second test
+This is a third test
+I've appended a line!
+PS C:\tmp\tutorial> less combined.txt
+"combined.txt" may be a binary file.  See it anyway?
+PS C:\tmp\tutorial> echo "Lower case" > a.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Lower case"
+PS C:\tmp\tutorial> echo "Upper case" > A.TXT
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Upper case"
+PS C:\tmp\tutorial> echo "Mixed case" > A.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Mixed case"
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+d-----         14/4/2026     23:43                tutorial
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:57            170 combined.txt
+-a----         14/4/2026     23:50           2192 output.txt
+-a----         14/4/2026     23:53             34 test_1.txt
+-a----         14/4/2026     23:53             48 test_2.txt
+-a----         14/4/2026     23:53             46 test_3.txt
+
+
+PS C:\tmp\tutorial> mv combined.txt dir1
+PS C:\tmp\tutorial> ls dir1
+
+
+    Directorio: C:\tmp\tutorial\dir1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         14/4/2026     23:57            170 combined.txt
+
+
+PS C:\tmp\tutorial> mv dir1/* .
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:00                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+d-----         14/4/2026     23:43                tutorial
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:57            170 combined.txt
+-a----         14/4/2026     23:50           2192 output.txt
+-a----         14/4/2026     23:53             34 test_1.txt
+-a----         14/4/2026     23:53             48 test_2.txt
+-a----         14/4/2026     23:53             46 test_3.txt
+
+
+PS C:\tmp\tutorial> mv combined.txt test_* dir3 dir2
+>> ErrorTerminación(Move-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'."
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3 dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se encuentra ningún parámetro de posición que acepte el
+argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3 dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], Paramete
+   rBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.Powe
+   rShell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv combined.txt test_* dir3, dir2
+>> ErrorTerminación(Move-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'System.Object[]'."
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'System.Object[]'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se encuentra ningún parámetro de posición que acepte el
+argumento 'System.Object[]'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], Paramete
+   rBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.Powe
+   rShell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv combined.txt test_? dir3 dir2
+>> ErrorTerminación(Move-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'."
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_? dir3 dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se encuentra ningún parámetro de posición que acepte el
+argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_? dir3 dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], Paramete
+   rBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.Powe
+   rShell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> combined.txt test_?, dir3, dir2
+combined.txt : El término 'combined.txt' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es 
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ combined.txt test_?, dir3, dir2
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (combined.txt:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+combined.txt : El término 'combined.txt' no se reconoce como nombre de
+un cmdlet, función, archivo de script o programa ejecutable. Compruebe
+si escribió correctamente el nombre o, si incluyó una ruta de acceso,
+compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ combined.txt test_?, dir3, dir2
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (combined.txt:String) [],
+   CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\tmp\tutorial> mv combined.txt test_?, dir3, dir2
+>> ErrorTerminación(Move-Item): "No se puede convertir 'System.Object[]' al tipo 'System.String' requerido por el parámetro 'Destination'. El método especificado no es compatible."
+Move-Item : No se puede convertir 'System.Object[]' al tipo 'System.String' requerido por el parámetro 'Destination'. 
+El método especificado no es compatible.
+En línea: 1 Carácter: 17
++ mv combined.txt test_?, dir3, dir2
++                 ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgument,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se puede convertir 'System.Object[]' al tipo
+'System.String' requerido por el parámetro 'Destination'. El método
+especificado no es compatible.
+En línea: 1 Carácter: 17
++ mv combined.txt test_?, dir3, dir2
++                 ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], Paramete
+   rBindingException
+    + FullyQualifiedErrorId : CannotConvertArgument,Microsoft.PowerShell
+   .Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv combined.txt, test_?, dir3, dir2
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv combined.txt, test_?, dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir3:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv combined.txt, test_?, dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir3:Director
+   yInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerSh
+   ell.Commands.MoveItemCommand
+
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv combined.txt, test_?, dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir2:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv combined.txt, test_?, dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir2:Director
+   yInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerSh
+   ell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv .\combined.txt, .\test_*.txt, .\dir3\, .\dir2\
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv .\combined.txt, .\test_*.txt, .\dir3\, .\dir2\
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir3\:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv .\combined.txt, .\test_*.txt, .\dir3\, .\dir2\
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir3\:Directo
+   ryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerSh
+   ell.Commands.MoveItemCommand
+
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv .\combined.txt, .\test_*.txt, .\dir3\, .\dir2\
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir2\:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv .\combined.txt, .\test_*.txt, .\dir3\, .\dir2\
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir2\:Directo
+   ryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerSh
+   ell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:00                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+d-----         14/4/2026     23:43                tutorial
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:57            170 combined.txt
+-a----         14/4/2026     23:50           2192 output.txt
+-a----         14/4/2026     23:53             34 test_1.txt
+-a----         14/4/2026     23:53             48 test_2.txt
+-a----         14/4/2026     23:53             46 test_3.txt
+
+
+PS C:\tmp\tutorial> mv combined.txt, test_*, dir3, dir2
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv combined.txt, test_*, dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir3:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv combined.txt, test_*, dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir3:Director
+   yInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerSh
+   ell.Commands.MoveItemCommand
+
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv combined.txt, test_*, dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir2:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv combined.txt, test_*, dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir2:Director
+   yInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerSh
+   ell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv dir2/combined.txt dir4/dir5/dir6
+mv : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir2\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir2/combined.txt dir4/dir5/dir6
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir2\combined.txt:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso
+'C:\tmp\tutorial\dir2\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir2/combined.txt dir4/dir5/dir6
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir2\comb
+   ined.txt:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .MoveItemCommand
+
+PS C:\tmp\tutorial> mv dir2/combined.txt, dir4/dir5/dir6
+mv : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir2\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir2/combined.txt, dir4/dir5/dir6
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir2\combined.txt:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso
+'C:\tmp\tutorial\dir2\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir2/combined.txt, dir4/dir5/dir6
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir2\comb
+   ined.txt:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .MoveItemCommand
+
+PS C:\tmp\tutorial> mv dir2, combined.txt, test_*, dir3
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv dir2, combined.txt, test_*, dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir2:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv dir2, combined.txt, test_*, dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir2:Director
+   yInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerSh
+   ell.Commands.MoveItemCommand
+
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv dir2, combined.txt, test_*, dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir3:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv dir2, combined.txt, test_*, dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir3:Director
+   yInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerSh
+   ell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv combined.txt test_* dir3, dir2
+>> ErrorTerminación(Move-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'System.Object[]'."
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'System.Object[]'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se encuentra ningún parámetro de posición que acepte el
+argumento 'System.Object[]'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3, dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], Paramete
+   rBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.Powe
+   rShell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv dir2, combined.txt test_* dir3
+>> ErrorTerminación(Move-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'."
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv dir2, combined.txt test_* dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se encuentra ningún parámetro de posición que acepte el
+argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv dir2, combined.txt test_* dir3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], Paramete
+   rBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.Powe
+   rShell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv dir2, combined.txt test_* 
+mv : No se puede mover el elemento porque el destino se resuelve en varias rutas de acceso. Especifique una ruta de 
+acceso de destino que se resuelva en un único destino e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mv dir2, combined.txt test_*
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (test_*:String) [Move-Item], PSArgumentException
+    + FullyQualifiedErrorId : 
+System.Management.Automation.PSArgumentException,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se puede mover el elemento porque el destino se resuelve en
+varias rutas de acceso. Especifique una ruta de acceso de destino que se
+resuelva en un único destino e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mv dir2, combined.txt test_*
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (test_*:String) [Move-Ite
+   m], PSArgumentException
+    + FullyQualifiedErrorId : System.Management.Automation.PSArgumentExc
+   eption,Microsoft.PowerShell.Commands.MoveItemCommand
+
+mv : No se puede mover el elemento porque el destino se resuelve en varias rutas de acceso. Especifique una ruta de 
+acceso de destino que se resuelva en un único destino e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mv dir2, combined.txt test_*
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (test_*:String) [Move-Item], PSArgumentException
+    + FullyQualifiedErrorId : 
+System.Management.Automation.PSArgumentException,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se puede mover el elemento porque el destino se resuelve en
+varias rutas de acceso. Especifique una ruta de acceso de destino que se
+resuelva en un único destino e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mv dir2, combined.txt test_*
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (test_*:String) [Move-Ite
+   m], PSArgumentException
+    + FullyQualifiedErrorId : System.Management.Automation.PSArgumentExc
+   eption,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv combined.txt test_* dir3 dir2
+>> ErrorTerminación(Move-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'."
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3 dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se encuentra ningún parámetro de posición que acepte el
+argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir3 dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], Paramete
+   rBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.Powe
+   rShell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv combined.txt test_* dir2
+>> ErrorTerminación(Move-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'."
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se encuentra ningún parámetro de posición que acepte el
+argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], Paramete
+   rBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.Powe
+   rShell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv combined.txt test_* "dir3" "dir2"
+>> ErrorTerminación(Move-Item): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'."
+Move-Item : No se encuentra ningún parámetro de posición que acepte el argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* "dir3" "dir2"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : No se encuentra ningún parámetro de posición que acepte el
+argumento 'dir3'.
+En línea: 1 Carácter: 1
++ mv combined.txt test_* "dir3" "dir2"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], Paramete
+   rBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.Powe
+   rShell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:00                dir1
+d-----         14/4/2026     23:39                dir2
+d-----         14/4/2026     23:39                dir3
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:40                dir6
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+d-----         14/4/2026     23:43                tutorial
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:57            170 combined.txt
+-a----         14/4/2026     23:50           2192 output.txt
+-a----         14/4/2026     23:53             34 test_1.txt
+-a----         14/4/2026     23:53             48 test_2.txt
+-a----         14/4/2026     23:53             46 test_3.txt
+
+
+PS C:\tmp\tutorial> mv .\combined.txt, .\test_*.txt, .\dir3, .\dir2
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv .\combined.txt, .\test_*.txt, .\dir3, .\dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir3:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv .\combined.txt, .\test_*.txt, .\dir3, .\dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir3:Director
+   yInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerSh
+   ell.Commands.MoveItemCommand
+
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv .\combined.txt, .\test_*.txt, .\dir3, .\dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir2:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : La ruta de acceso de origen y la de destino deben ser distintas.
+En línea: 1 Carácter: 1
++ mv .\combined.txt, .\test_*.txt, .\dir3, .\dir2
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir2:Director
+   yInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerSh
+   ell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> mv combined.txt dir2
+PS C:\tmp\tutorial> mv dir3 dir2
+PS C:\tmp\tutorial> mv test_* dir2
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:00                dir1
+d-----         15/4/2026     00:15                dir2
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:40                dir6
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+d-----         14/4/2026     23:43                tutorial
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:50           2192 output.txt
+
+
+PS C:\tmp\tutorial> ls dir2
+
+
+    Directorio: C:\tmp\tutorial\dir2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir3
+-a----         14/4/2026     23:57            170 combined.txt
+-a----         14/4/2026     23:53             34 test_1.txt
+-a----         14/4/2026     23:53             48 test_2.txt
+-a----         14/4/2026     23:53             46 test_3.txt
+
+
+PS C:\tmp\tutorial> mv dir2/combined.txt dir4/dir5/dir6
+PS C:\tmp\tutorial> ls dir2
+
+
+    Directorio: C:\tmp\tutorial\dir2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir3
+-a----         14/4/2026     23:53             34 test_1.txt
+-a----         14/4/2026     23:53             48 test_2.txt
+-a----         14/4/2026     23:53             46 test_3.txt
+
+
+PS C:\tmp\tutorial> ls dir4/dir5/dir6
+
+
+    Directorio: C:\tmp\tutorial\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         14/4/2026     23:57            170 dir6
+
+
+PS C:\tmp\tutorial> cp dir4/dir5/dir6/combined.txt .
+cp : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir4\dir5\dir6\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ cp dir4/dir5/dir6/combined.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial...r6\combined.txt:String) [Copy-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+cp : No se encuentra la ruta de acceso
+'C:\tmp\tutorial\dir4\dir5\dir6\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ cp dir4/dir5/dir6/combined.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial...r6\comb
+   ined.txt:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .CopyItemCommand
+
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:00                dir1
+d-----         15/4/2026     00:15                dir2
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:40                dir6
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+d-----         14/4/2026     23:43                tutorial
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:50           2192 output.txt
+
+
+PS C:\tmp\tutorial> ls dir2
+
+
+    Directorio: C:\tmp\tutorial\dir2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir3
+-a----         14/4/2026     23:53             34 test_1.txt
+-a----         14/4/2026     23:53             48 test_2.txt
+-a----         14/4/2026     23:53             46 test_3.txt
+
+
+PS C:\tmp\tutorial> ls dir4/dir5/dir6
+
+
+    Directorio: C:\tmp\tutorial\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         14/4/2026     23:57            170 dir6
+
+
+PS C:\tmp\tutorial> ls dir6
+PS C:\tmp\tutorial> ls dir4
+
+
+    Directorio: C:\tmp\tutorial\dir4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:15                dir5
+
+
+PS C:\tmp\tutorial> ls dir5
+ls : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir5' porque no existe.
+En línea: 1 Carácter: 1
++ ls dir5
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir5:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ls : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir5' porque no
+existe.
+En línea: 1 Carácter: 1
++ ls dir5
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir5:Stri
+   ng) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .GetChildItemCommand
+
+PS C:\tmp\tutorial> cp combined.txt backup_combined.txt
+cp : No se encuentra la ruta de acceso 'C:\tmp\tutorial\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ cp combined.txt backup_combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\combined.txt:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+cp : No se encuentra la ruta de acceso 'C:\tmp\tutorial\combined.txt'
+porque no existe.
+En línea: 1 Carácter: 1
++ cp combined.txt backup_combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\combined.
+   txt:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .CopyItemCommand
+
+PS C:\tmp\tutorial> mv  dir4/dir5/dir6/combined.txt tutorial
+mv : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir4\dir5\dir6\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ mv  dir4/dir5/dir6/combined.txt tutorial
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial...r6\combined.txt:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso
+'C:\tmp\tutorial\dir4\dir5\dir6\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ mv  dir4/dir5/dir6/combined.txt tutorial
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial...r6\comb
+   ined.txt:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .MoveItemCommand
+
+PS C:\tmp\tutorial> rm tutorial
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:00                dir1
+d-----         15/4/2026     00:15                dir2
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:40                dir6
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:50           2192 output.txt
+
+
+PS C:\tmp\tutorial> mv dir6 dir4/dir5
+mv : No se puede crear un archivo que ya existe.
+
+En línea: 1 Carácter: 1
++ mv dir6 dir4/dir5
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir6:DirectoryInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se puede crear un archivo que ya existe.
+
+En línea: 1 Carácter: 1
++ mv dir6 dir4/dir5
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\tmp\tutorial\dir6:Director
+   yInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveDirectoryItemIOError,Microsoft.PowerSh
+   ell.Commands.MoveItemCommand
+
+PS C:\tmp\tutorial> rm dir6
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:00                dir1
+d-----         15/4/2026     00:15                dir2
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder 1
+d-----         14/4/2026     23:44                folder 2
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:50           2192 output.txt
+
+
+PS C:\tmp\tutorial> lsdir5
+lsdir5 : El término 'lsdir5' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ lsdir5
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (lsdir5:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+lsdir5 : El término 'lsdir5' no se reconoce como nombre de un cmdlet,
+función, archivo de script o programa ejecutable. Compruebe si escribió
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que
+dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ lsdir5
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (lsdir5:String) [], Comman
+   dNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\tmp\tutorial> ls dir5
+ls : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir5' porque no existe.
+En línea: 1 Carácter: 1
++ ls dir5
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir5:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ls : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir5' porque no
+existe.
+En línea: 1 Carácter: 1
++ ls dir5
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir5:Stri
+   ng) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .GetChildItemCommand
+
+PS C:\tmp\tutorial> ls dir4/dir5
+
+
+    Directorio: C:\tmp\tutorial\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         14/4/2026     23:57            170 dir6
+
+
+PS C:\tmp\tutorial> ls dir4/dir5/dir6
+
+
+    Directorio: C:\tmp\tutorial\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         14/4/2026     23:57            170 dir6
+
+
+PS C:\tmp\tutorial> mv dir2/combined.txt dir4/dir5/dir6
+mv : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir2\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir2/combined.txt dir4/dir5/dir6
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir2\combined.txt:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso
+'C:\tmp\tutorial\dir2\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir2/combined.txt dir4/dir5/dir6
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir2\comb
+   ined.txt:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .MoveItemCommand
+
+PS C:\tmp\tutorial> ls dir2
+
+
+    Directorio: C:\tmp\tutorial\dir2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:39                dir3
+-a----         14/4/2026     23:53             34 test_1.txt
+-a----         14/4/2026     23:53             48 test_2.txt
+-a----         14/4/2026     23:53             46 test_3.txt
+
+
+PS C:\tmp\tutorial> mv dir2/test_3, dir4/dir5/dir6
+mv : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir2\test_3' porque no existe.
+En línea: 1 Carácter: 1
++ mv dir2/test_3, dir4/dir5/dir6
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir2\test_3:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir2\test_3'
+porque no existe.
+En línea: 1 Carácter: 1
++ mv dir2/test_3, dir4/dir5/dir6
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir2\test
+   _3:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .MoveItemCommand
+
+PS C:\tmp\tutorial> mv "folder 1" folder_1
+PS C:\tmp\tutorial> mv "folder 2" folder_2
+PS C:\tmp\tutorial> mv "folder 3" folder_3
+mv : No se encuentra la ruta de acceso 'C:\tmp\tutorial\folder 3' porque no existe.
+En línea: 1 Carácter: 1
++ mv "folder 3" folder_3
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\folder 3:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso 'C:\tmp\tutorial\folder 3' porque
+no existe.
+En línea: 1 Carácter: 1
++ mv "folder 3" folder_3
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\folder 3:
+   String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .MoveItemCommand
+
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:00                dir1
+d-----         15/4/2026     00:15                dir2
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:46                folder 4
+d-----         14/4/2026     23:46                folder 5
+d-----         14/4/2026     23:49                folder 6
+d-----         14/4/2026     23:44                folder_1
+d-----         14/4/2026     23:44                folder_2
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:57            170 dir6
+-a----         14/4/2026     23:50           2192 output.txt
+
+
+PS C:\tmp\tutorial> mv "folder 4" folder_4
+PS C:\tmp\tutorial> mv "folder 5" folder_5
+PS C:\tmp\tutorial> mv "folder 6" folder_6
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:00                dir1
+d-----         15/4/2026     00:15                dir2
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder_1
+d-----         14/4/2026     23:44                folder_2
+d-----         14/4/2026     23:46                folder_4
+d-----         14/4/2026     23:46                folder_5
+d-----         14/4/2026     23:49                folder_6
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:57            170 dir6
+-a----         14/4/2026     23:50           2192 output.txt
+
+
+PS C:\tmp\tutorial> rm dir4/dir5/dir6/combined.txt
+rm : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir4\dir5\dir6\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial...r6\combined.txt:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+rm : No se encuentra la ruta de acceso
+'C:\tmp\tutorial\dir4\dir5\dir6\combined.txt' porque no existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/combined.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial...r6\comb
+   ined.txt:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .RemoveItemCommand
+
+PS C:\tmp\tutorial> rm dir4/dir5/dir6/
+rm : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir4\dir5\dir6\' porque no existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir4\dir5\dir6\:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+rm : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir4\dir5\dir6\'
+porque no existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6/
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir4\dir5
+   \dir6\:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .RemoveItemCommand
+
+PS C:\tmp\tutorial> rm dir4/dir5/dir6
+rm : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir4\dir5\dir6' porque no existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir4\dir5\dir6:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+rm : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir4\dir5\dir6'
+porque no existe.
+En línea: 1 Carácter: 1
++ rm dir4/dir5/dir6
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir4\dir5
+   \dir6:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .RemoveItemCommand
+
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:00                dir1
+d-----         15/4/2026     00:15                dir2
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+d-----         14/4/2026     23:44                folder_1
+d-----         14/4/2026     23:44                folder_2
+d-----         14/4/2026     23:46                folder_4
+d-----         14/4/2026     23:46                folder_5
+d-----         14/4/2026     23:49                folder_6
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:57            170 dir6
+-a----         14/4/2026     23:50           2192 output.txt
+
+
+PS C:\tmp\tutorial> ls dir4
+
+
+    Directorio: C:\tmp\tutorial\dir4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:15                dir5
+
+
+PS C:\tmp\tutorial> ls dir5
+ls : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir5' porque no existe.
+En línea: 1 Carácter: 1
++ ls dir5
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir5:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ls : No se encuentra la ruta de acceso 'C:\tmp\tutorial\dir5' porque no
+existe.
+En línea: 1 Carácter: 1
++ ls dir5
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\tmp\tutorial\dir5:Stri
+   ng) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .GetChildItemCommand
+
+PS C:\tmp\tutorial> rm dir4/dir5
+PS C:\tmp\tutorial> rm folder_*
+Confirmar
+El elemento situado en C:\tmp\tutorial\folder_6 tiene elementos secundarios y no se especificó el parámetro Recurse. Si continúa, se quitarán todos los secundarios junto con el elemento. ¿Está seguro de que desea continuar?
+&Sí  Sí a t&odo  &No  No a &todo  S&uspender
+N
+PS C:\tmp\tutorial> ls folder_6
+
+
+    Directorio: C:\tmp\tutorial\folder_6
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         14/4/2026     23:49                 folder 7
+
+
+PS C:\tmp\tutorial> rm folder_*
+Confirmar
+El elemento situado en C:\tmp\tutorial\folder_6 tiene elementos secundarios y no se especificó el parámetro Recurse. Si continúa, se quitarán todos los secundarios junto con el elemento. ¿Está seguro de que desea continuar?
+&Sí  Sí a t&odo  &No  No a &todo  S&uspender
+S
+PS C:\tmp\tutorial> ls
+
+
+    Directorio: C:\tmp\tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         15/4/2026     00:00                dir1
+d-----         15/4/2026     00:15                dir2
+d-----         14/4/2026     23:40                dir4
+d-----         14/4/2026     23:45                folder
+-a----         14/4/2026     23:59             26 a.txt
+-a----         14/4/2026     23:57            170 dir6
+-a----         14/4/2026     23:50           2192 output.txt
+
+
+PS C:\tmp\tutorial> wc -l output.txt
+21 output.txt
+PS C:\tmp\tutorial> ls ~ > file_list.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".afirma"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="3D Objects"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Contacts"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Desktop"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Documents"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Downloads"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Favorites"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Links"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Music"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="OneDrive"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Pictures"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="prueba"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Saved Games"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Searches"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Videos"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor=".gitconfig"
+PS C:\tmp\tutorial> wc -l file_list.txt
+25 file_list.txt
+PS C:\tmp\tutorial> rm file_list.txt
+PS C:\tmp\tutorial> ls ~ | wc -l
+25
+PS C:\tmp\tutorial> ls /etc|wc -l
+ls : No se encuentra la ruta de acceso 'C:\etc' porque no existe.
+En línea: 1 Carácter: 1
++ ls /etc|wc -l
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\etc:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ls : No se encuentra la ruta de acceso 'C:\etc' porque no existe.
+En línea: 1 Carácter: 1
++ ls /etc|wc -l
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\etc:String) [Get-Child
+   Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands
+   .GetChildItemCommand
+
+0
+PS C:\tmp\tutorial> ls /C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\econ-520\clases\proyectos\tareas|wc -l
+ls : No se encuentra la unidad. No existe ninguna unidad con el nombre '/C'.
+En línea: 1 Carácter: 1
++ ls /C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\econ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (/C:String) [Get-ChildItem], DriveNotFoundException
+    + FullyQualifiedErrorId : DriveNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ls : No se encuentra la unidad. No existe ninguna unidad con el nombre
+'/C'.
+En línea: 1 Carácter: 1
++ ls /C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\econ
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (/C:String) [Get-ChildItem
+   ], DriveNotFoundException
+    + FullyQualifiedErrorId : DriveNotFound,Microsoft.PowerShell.Command
+   s.GetChildItemCommand
+
+0
+PS C:\tmp\tutorial> ls C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\econ-520\clases\proyectos\tareas|wc -l
+21
+PS C:\tmp\tutorial> ls C:\Users\user\Desktop\Curso-E520-MarcoMartul\repo-curso-2026\econ-520\clases\proyectos\tareas | less
+
+PS C:\tmp\tutorial> cat output.txt | uniq | wc -l
+18
+PS C:\tmp\tutorial> cat output.txt | uniq | less
+
+PS C:\tmp\tutorial> man uniq
+
+NOMBRE
+    Get-Unique
+
+SINTAXIS
+    Get-Unique  [<CommonParameters>]
+
+    Get-Unique  [<CommonParameters>]
+
+
+ALIAS
+    gu
+
+
+NOTAS
+    Get-Help no encuentra los archivos de Ayuda para este cmdlet en el
+    equipo. Mostrará solo una parte de la Ayuda.
+        -- Para descargar e instalar los archivos de Ayuda para el
+    módulo que incluye este cmdlet, use Update-Help.
+        -- Para ver en línea el tema de Ayuda de este cmdlet, escriba
+    "Get-Help Get-Unique -Online" o
+           vaya a https://go.microsoft.com/fwlink/?LinkID=113335.
+PS C:\tmp\tutorial> sort output.txt | less
+
+PS C:\tmp\tutorial> sort output.txt | uniq | wc -l
+0
+PS C:\tmp\tutorial> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20260415003522
+**********************
